@@ -1,0 +1,12 @@
+
+requirements = """pandas
+scikit-learn
+matplotlib
+seaborn
+joblib
+"""
+
+with open(r"C:\Users\lakes\OneDrive\Desktop\CodeNova\Task-2\requirements.txt", "w") as f:
+    f.write(requirements)
+
+print("requirements.txt created successfully!")
